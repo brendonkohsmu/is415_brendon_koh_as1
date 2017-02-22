@@ -37,7 +37,7 @@ var style_DistributionofPopulationByAge65andAbove0 = function(feature, resolutio
 
     if (!styleCache_DistributionofPopulationByAge65andAbove0[key]){
         var text = new ol.style.Text({
-              font: '5.525px \'MS Shell Dlg 2\', sans-serif',
+              font: '8.125px \'MS Shell Dlg 2\', sans-serif',
               text: labelText,
               textBaseline: "center",
               textAlign: "left",

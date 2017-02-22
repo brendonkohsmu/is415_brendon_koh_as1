@@ -62,11 +62,11 @@ var map = new ol.Map({
     overlays: [overlayPopup],
     layers: layersList,
     view: new ol.View({
-         maxZoom: 28, minZoom: 1, projection: 'EPSG:3414'
+         maxZoom: 28, minZoom: 1, projection: 'EPSG:3857'
     })
 });
 
-map.getView().fit([1406.299373, 21667.585752, 48994.257755, 48070.356613], map.getSize());
+map.getView().fit([11535471.383430, 137368.377467, 11581651.649676, 162990.131991], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
